@@ -1,0 +1,19 @@
+<div class="column is-4">
+    <div class="card">
+        <header class="media-content has-text-centered py-2">
+            <p class="title is-size-4 has-text-white py-2">{{ name }}</p>
+            <p class="subtitle is-size-4 has-text-white pb-2"><span class="icon"><i class="fas fa-mug-hot"></i></span> {{ role }}
+            </p>
+        </header>
+
+        <div class="card-content">
+            <div class="content">
+                <ul>
+                    <li class="is-size-5">Employee ID #: {{ id }}</li>
+                    <li class="is-size-5">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
+                    <li class="is-size-5"><span>Office Phone #<a href="tel:{{ officeNumber }}">: {{ officeNumber }}</a></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
